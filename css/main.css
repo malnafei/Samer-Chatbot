@@ -1,0 +1,438 @@
+/*!
+ * Materialize v0.100.2 (http://materializecss.com)
+ * Copyright 2014-2017 Materialize
+ * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
+ */
+
+.hide {
+    display: none;
+}
+.chatActionableMessage___1lt8i {
+    position: relative;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.ChatMessage___b8SbX {
+    margin-top: 8px;
+    position: relative;
+}
+
+.ChatMessage___b8SbX .body___3M67g.withActions___1YKBf {
+    width: 100%;
+}
+.ChatMessage___b8SbX .body___3M67g.withActions___1YKBf .text___2PL9N {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.ChatMessage___b8SbX.advisorBig___34aEZ .text___2PL9N {
+    max-width: 383px;
+    min-height: 54px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.ChatMessage___b8SbX .body___3M67g .text___2PL9N {
+    padding: 16px;
+    float: left;
+    text-align: left;
+    border-radius: 16px 16px 16px 4px;
+    background-color: #eff3f6;
+}
+
+.ChatMessage___b8SbX .body___3M67g .text___2PL9N, .ChatMessage___b8SbX .body___3M67g.withImage___3qNiC .text___2PL9N {
+    line-height: 19px;
+    font-size: 16px;
+}
+
+.chatActionableMessage___1lt8i .chatMessage + .chatActionButton {
+    margin-top: 0px;
+}
+
+
+.ChatActionButton___3g7sr .chatActionButton {
+    margin-top: 0px;
+}
+
+
+.ChatActionButton___3g7sr {
+    width: 100%;
+    margin: 0;
+    height: 0;
+}
+
+.brand-logo {
+    width: 20%;
+    margin: 4px;
+}
+
+.chatActionableMessage___1lt8i .chatTips___1jIXq {
+    max-width: 393px;
+}
+
+.chatActionableMessage___1lt8i .chatTips___1jIXq div:first-child span {
+    border-bottom-left-radius: 4px;
+}
+
+.ChatTip___2ctIP.actionTip___2Fvdu.secondary___1ks7S {
+    color: #757575;
+}
+
+.chatActionableMessage___1lt8i .chatTips___1jIXq div:last-child span {
+    border-right: 1px solid #e0e0e0;
+    border-bottom-right-radius: 16px;
+}
+
+.ChatTips___3I11P {
+    position: relative;
+    margin-left: 0;
+    padding-right: 10px !important;
+    margin-right: 0;
+    padding-left: 0;
+}
+
+.ChatTip___2ctIP.actionTip___2Fvdu {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 15px 8px;
+    transition: 0.25s ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #6200ea;
+    border: 1px solid #e0e0e0;
+    border-right: 0;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.no-gutter.a_row {
+    margin-right: 0rem;
+    margin-left: 0rem;
+    width: calc( 100%);
+}
+
+.a_row {
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -0.5rem;
+    margin-left: -0.5rem;
+    width: calc( 100% + 1rem);
+}
+
+
+
+img.responsive-img.logo {
+    width: 10%;
+    margin: 5px;
+}
+
+.ChatInput {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 31px;
+    display: block;
+    width: calc(581px - 80px);
+    height: 48px;
+    margin-right: 70px;
+    border: 1px solid #e0e0e0;
+    border-radius: 100px;
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1680px) {
+
+
+}
+
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+    .ChatInputContainer {
+        position: relative;
+        width: 212px;
+        height: 64px;
+        padding-top: 16px;
+    }
+
+
+    .ChatInput {
+        position: absolute;
+        z-index: 1;
+        bottom: 0;
+        left: 31px;
+        display: block;
+        width: calc(334px - 80px);
+        height: 48px;
+        margin-right: 70px;
+        border: 1px solid #e0e0e0;
+        border-radius: 100px;
+        background-color: #ffffff;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+
+    .ChatInputContainer {
+        position: relative;
+        width: 212px !important;
+        height: 64px;
+        padding-top: 16px;
+    }
+
+    .brand-logo {
+        width: 48px;
+        margin: 4px;
+    }
+
+    .ChatInput {
+        position: absolute;
+        z-index: 1;
+        bottom: 0;
+        left: 1px;
+        display: block;
+        width: calc(415px - 80px);
+        height: 48px;
+        border: 1px solid #e0e0e0;
+        border-radius: 100px;
+        background-color: #ffffff;
+    }
+
+    .advisorTextSubmitContainer .advisorTextSubmit .sendIcon, .advisorTextSubmitContainer .advisorTextSubmit .sendIcon {
+        z-index: 2;
+        display: block;
+        width: 45px !important;
+        height: 45px !important;
+        margin: 0 auto;
+        position: relative;
+        transform: translateY(-17%);
+        background: #653bb7;
+        border-radius: 60px;
+        text-align: center;
+        margin-top: 10px !important;
+    }
+
+    .advisorTextSubmitContainer {
+        position: absolute;
+        z-index: 2;
+        right: -65px;
+        bottom: 0;
+        width: 48px;
+        height: 48px;
+        user-select: none;
+        border-radius: 50%;
+        line-height: 4 !important;
+    }
+    .advisorTextSubmitContainer .advisorTextSubmit .sendIcon img, .advisorTextSubmitContainer .advisorTextSubmit .sendIcon img {
+        z-index: 2;
+        width: 21px !important;
+        height: 21px !important;
+    }
+
+
+}
+
+@media screen and (max-width: 360px) {
+
+
+
+
+}
+
+@media screen and (max-height: 640px) {
+
+
+
+}
+
+@media only screen and (max-width : 320px) {
+    .ChatInputContainer {
+        position: relative;
+        width: 212px;
+        height: 64px;
+        padding-top: 16px;
+    }
+
+
+    .ChatInput {
+        position: absolute;
+        z-index: 1;
+        bottom: 0;
+        left: 31px;
+        display: block;
+        width: calc(334px - 80px);
+        height: 48px;
+        margin-right: 70px;
+        border: 1px solid #e0e0e0;
+        border-radius: 100px;
+        background-color: #ffffff;
+    }
+
+}
+
+div#voice-loading {
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 183px;
+}
+
+.chatInputTextWrapper {
+    height: 100%;
+}
+
+.sendIcon.pulse::before {
+    animation-duration: 2s !important;
+}
+
+.advisorTextSubmitContainer {
+    position: absolute;
+    z-index: 2;
+    right: -65px;
+    bottom: -8px;
+    width: 48px;
+    height: 48px;
+    user-select: none;
+    border-radius: 50%;
+    line-height: 5;
+}
+
+.advisorTextSubmitContainer .advisorTextSubmit {
+    z-index: 1;
+    background-color: #ffffff;
+}
+
+.advisorTextSubmitContainer .advisorTextSubmit .sendIcon img, .advisorTextSubmitContainer .advisorTextSubmit .sendIcon img {
+    z-index: 2;
+    width: 27px;
+    height: 27px;
+}
+
+.advisorTextSubmitContainer .advisorTextSubmit .sendIcon, .advisorTextSubmitContainer .advisorTextSubmit .sendIcon {
+    z-index: 2;
+    display: block;
+    width: 55px;
+    height: 55px;
+    margin: 0 auto;
+    position: relative;
+    transform: translateY(-17%);
+    background: #f36c20;
+    border-radius: 60px;
+    text-align: center;
+}
+
+.chatInputTextWrapper #chatInputText input {
+    position: relative;
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+.chatInputTextWrapper #chatInputText {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    left: 24px;
+    width: calc(100% - (24px * 2));
+    height: 100%;
+    overflow: auto;
+}
+
+.ChatInputContainer {
+    position: relative;
+    width: 612px;
+    height: 64px;
+    padding-top: 16px;
+}
+
+.ChatConversation {
+    position: relative;
+    height: 100%;
+    padding: 0 60px 0 60px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    line-height: 19px;
+    -ms-overflow-style: none;
+}
+
+.left-msg.typing > img {
+    width: 50px;
+}
+
+.message .left-msg {
+    max-width: 383px;
+    min-height: 54px;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 16px;
+    border-radius: 16px 16px 16px 4px;
+    background-color: #eff3f6;
+    float: left;
+    text-align: left;
+}
+
+
+.message .right-msg {
+    float: right;
+    max-width: 383px;
+    min-height: 54px;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 16px;
+    overflow: auto;
+    text-align: left;
+    color: #ffffff;
+    border-radius: 16px 16px 4px 16px;
+    background-color: #f36c20;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    display: block;
+    z-index: 2;
+}
+
+img.responsive-img.chat-logo {
+    position: absolute;
+    left: 0;
+    width: 40px;
+    height: 40px;
+}
+
+
+
