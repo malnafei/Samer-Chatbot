@@ -1,4 +1,4 @@
-var accessToken = "b84d75997aa8409fb740ac6a127fd963";
+var accessToken = "b84d75997aa8409fb740ac6a127fd963"; //replace it with your access token v1 key
 var baseUrl = "https://api.api.ai/v1/";
 
 //ready document
